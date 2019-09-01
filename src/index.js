@@ -7,6 +7,8 @@ import SearchableMovieReviewsContainer from './components/SearchableMovieReviews
 ReactDOM.render(
   <div className="app">
     <SearchableMovieReviewsContainer />
+    <h2>Most Recent Reviews</h2>
+    <span style={{color: 'cyan'}}>{'******************************************'}</span>
     <LatestMovieReviewsContainer />
   </div>,
   document.getElementById('root')
